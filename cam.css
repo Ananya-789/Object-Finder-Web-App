@@ -1,0 +1,54 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading2{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    box-shadow: 5px 15px 2px gray;
+}
+
+.heading2 h1{
+    font-size: 23px;
+}
+
+.note{
+    font-size: 15px;
+}
+
+#obj_label{
+    font-size: 12px;
+}
+
+#oname{
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 2px 4px 5px grey;
+}
+
+#start{
+    font-size: 16px;;
+    padding:10px 24px ;
+    border-radius: 4px;
+}
+
+.start:hover{
+    box-shadow: 3px 3px 4px gray;
+}
+
+#model,#obj_detect{
+    font-size: 18px;
+}
+
+#footer2{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    margin : 0px;
+    line-height: 1;
+    text-align: center;
+   background-color: gray;
+   color: whitesmoke;
+}

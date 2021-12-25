@@ -1,0 +1,26 @@
+<html>   
+     <head>
+     <link rel="stylesheet" href="cam.css">
+      <script src="main.js"></script>
+     <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+     <script src="//cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body background="bg.gif">
+      <center>
+        <div class="btn btn-info heading2"><h1>ProtractorCam</h1><br>
+            <b class="text-danger note">Note:The input name which will be given should match the names present in the CoCo model for successful detection of objects.</b>
+        </div>
+        <br> <br> <br>
+        <b id="obj_label">OBJECT NAME:</b><br>
+        <input type="text" id="oname" name="oname" class="form-group">
+        <br><br>
+        <button class="btn btn-success" id="start" onclick="start()">Start</button> <br>
+        <h3 class="btn btn-primary" id="model"></h3> &nbsp; <h3 class="btn btn-danger" id="obj_detect"></h3>
+      </center>
+      <center><div id="footer2">Developed by Protractor.Co and The Video Surveillance Departement ©</div></center>
+  </body>
+  </html>

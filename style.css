@@ -1,0 +1,64 @@
+body{
+    background-color:#efefef;
+}
+.heading1 {
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    color: azure; 
+    box-shadow: 5px 15px 2px rgb(0, 0, 0);
+}
+
+.heading1 h1{
+    font-size: 23px;
+}
+
+#para{
+   font-size: 14px;
+   color: aliceblue;
+}
+
+.img{
+    width: 100%;
+}
+
+#aboutus,#webreason,#credit{
+   font-size: 16px;
+   color:#FF3B3F;
+   text-decoration: underline #FF3B3F;
+   background-color: skyblue;
+}
+
+#para1,#para2,#para3{
+   font-size: 12px;
+   color:#a9a9a9;
+   background-color: #caebf2;
+  }
+
+  #button{
+      background-color: tan;
+      font-size: 16px;
+      padding: 14px 40px;
+      border-radius: 12px;
+      border: 2px solid rgb(117, 248, 248);
+      color: black;
+      transition-duration: 0.4s;
+      box-shadow: 2px 2px 4px lightslategray;
+  }
+
+  #button:hover{
+      background-color: rgb(117, 248, 248);
+      color: lightslategrey;
+      border: 2px solid tan;
+  }
+
+#footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    margin : 0px;
+    line-height: 1;
+    text-align: center;
+   background-color: gray;
+   color: whitesmoke;
+  }
